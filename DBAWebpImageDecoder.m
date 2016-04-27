@@ -37,6 +37,10 @@ RCT_EXPORT_MODULE()
     UIImage *image = [UIImage imageWithCGImage:imageRef scale:scale orientation:UIImageOrientationUp];
     completionHandler(nil, image);
     
+    CGColorSpaceRelease(colorSpaceRef);
+    CGDataProviderRelease(provider);
+    CGImageRelease(imageRef);
+
     return ^{};
 }
 @end
