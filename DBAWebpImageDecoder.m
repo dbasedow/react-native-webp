@@ -1,5 +1,5 @@
 #import "DBAWebpImageDecoder.h"
-#include "webp/decode.h"
+#include "WebP/decode.h"
 
 static void free_data(void *info, const void *data, size_t size)
 {
