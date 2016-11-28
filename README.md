@@ -2,7 +2,7 @@ react-native-webp adds support for WebP images for react-native components.
 
 # Installation
 
-1. ```npm install https://github.com/dbasedow/react-native-webp.git --save```
+1. ```npm install react-native-webp --save```
 2. ```rnpm link``` (or manually add module to your project)
 3. Open your project in xcode
 4. Right click your project root and select "Add Files to ..."
