@@ -6,7 +6,7 @@ react-native-webp adds support for WebP images for react-native components.
 2. ```rnpm link``` (or manually add module to your project)
 3. Open your project in xcode
 4. Right click your project root and select "Add Files to ..."
-5. Select "WebP.framework" from node_modules/react-native-webp/ and click "OK"
+5. Select "WebP.framework" and "WebPDemux.framework" from node_modules/react-native-webp/ and click "OK"
 6. Select your Target
 7. Select "Build Settings"
 8. Add "$(SRCROOT)/../node_modules/react-native-webp" to the "Framework Search Path"
