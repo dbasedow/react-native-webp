@@ -208,6 +208,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../node_modules/react-native/React/**",
 					"$(SRCROOT)/../../node_modules/react-native/Libraries/**",
+					"$(BUILT_PRODUCTS_DIR)",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -227,6 +228,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../../node_modules/react-native/React/**",
 					"$(SRCROOT)/../../node_modules/react-native/Libraries/**",
+					"$(BUILT_PRODUCTS_DIR)",
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
